@@ -40,8 +40,8 @@ section { padding: 45px 0; border-top: 1px solid var(--line); scroll-margin-top:
 h2 { font-size: 28px; margin: 0; }
 h3 { font-size: 24px; margin: 12px 0 4px; line-height: 1.4; }
 .grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
-.card { display: block; min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: 4px; background: #fdfcf9; transition: border-color .2s; }
-.card:hover { border-color: #b6a391; }
+.card { display: block; min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: 4px; background: #fdfcf9; transition: border-color .2s, transform .2s; }
+.card:hover { border-color: #b6a391; transform: translateY(-3px); }
 .card p { margin: 10px 0 24px; }
 .featured { grid-column: 1/-1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; background: #fdfcf9; }
 .diagram { background: #efede7; border-radius: 2px; padding: 25px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; font: 13px ui-monospace, monospace; }
@@ -97,6 +97,7 @@ h1, .card, .wechat { overflow-wrap: break-word; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .card { transition: none; }
+  .card:hover { transform: none; }
 }
 
 /* Product cards: icon, benefits, and real app previews. */
