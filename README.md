@@ -23,9 +23,9 @@ python3 scripts/check_site.py
 
 ## 发布
 
-仓库名称必须为 `kobewang126.github.io`，默认分支为 `main`。在 Settings → Pages 中选择 GitHub Actions；推送后由 `.github/workflows/pages.yml` 自动验证并发布。
+仓库名称必须为 `kobewang126.github.io`，默认分支为 `main`。在 Settings → Pages 中选择从分支发布：`gh-pages` 分支、根目录 `/`。`main` 保存源码与设计资料；`gh-pages` 仅保存正式发布文件。
 
-发布文件仅包含首页、样式、脚本、资源、robots.txt 与 sitemap.xml。`design/` 是早期设计资料，不包含在发布产物中。
+发布文件仅包含首页、样式、脚本、资源、robots.txt 与 sitemap.xml。可选的 Actions 发布配置保存在 `scripts/pages-workflow.yml.example`，当前使用 GitHub Pages 内置的分支发布。`design/` 是早期设计资料，不包含在发布产物中。
 
 ## 素材
 
