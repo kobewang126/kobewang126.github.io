@@ -57,7 +57,24 @@ const translations = {
   "Android 渲染轨道视觉示意，非真实仿真": "Illustration of Android rendering tracks, not a live simulation",
   "长截图助手图标": "Long Screenshot Assistant icon",
   "查看王小二的技术栈公众号二维码原图": "View the original QR code for Wang Xiaoer's Tech Stack on WeChat",
-  "王小二的技术栈微信公众号二维码": "WeChat QR code for Wang Xiaoer's Tech Stack"
+  "王小二的技术栈微信公众号二维码": "WeChat QR code for Wang Xiaoer's Tech Stack",
+  "原生触控体验": "Designed for touch",
+  "竖屏桌面与边缘手势，支持 iPhone 键盘及实验性的 Ubuntu Touch 键盘。": "Explore a portrait desktop with edge gestures, using the iPhone keyboard or the experimental Ubuntu Touch keyboard.",
+  "自己的 Linux 空间": "Your own Linux space",
+  "客体文件和设置持久保存，让探索可以接着上次继续。": "Persistent guest files and settings let you pick up where you left off.",
+  "从应用到系统，源码开放": "Open from app to system",
+  "基于 Kernarium 与 UBports，公开应用、运行时改动、内核配置和镜像工具。": "Built on Kernarium and UBports, with source for the app, runtime changes, kernel configuration, and image tools.",
+  "Toucharium 在 iPhone 上运行 Ubuntu Touch 的真实界面": "Ubuntu Touch running inside Toucharium on iPhone",
+  "开发预览 · 尚未在 App Store 发布": "Development preview · Not yet on the App Store",
+  "多图拼接": "Screenshot stitching",
+  "录屏转长图": "Recordings to long images",
+  "本地处理": "On-device processing",
+  "长截图助手应用界面": "Long Screenshot Assistant app interface",
+  "每日打卡": "Daily check-ins",
+  "7 天趋势": "7-day trends",
+  "习惯记录": "Habit tracking",
+  "今天你抗炎了吗应用的每日打卡界面": "Daily check-in screen in the anti-inflammatory lifestyle app",
+  "把一套可交互的 Ubuntu Touch 带进 iPhone。在 iOS App 内本地运行 Linux 客体系统，用熟悉的触控方式探索 Lomiri 桌面，保留自己的文件、设置与探索成果。": "Bring an interactive Ubuntu Touch system to your iPhone. Run a Linux guest locally inside an iOS app, explore the Lomiri desktop with familiar touch controls, and keep your files, settings, and discoveries."
 };
 // Keep Chinese text as the no-JavaScript fallback and source for each translation.
 const walker = document.createTreeWalker(document.documentElement, NodeFilter.SHOW_TEXT);

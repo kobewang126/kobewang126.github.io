@@ -98,3 +98,30 @@ h1, .card, .wechat { overflow-wrap: break-word; }
   html { scroll-behavior: auto; }
   .card { transition: none; }
 }
+
+/* Product cards: icon, benefits, and real app previews. */
+.app-head { gap: 16px; margin: 16px 0 12px; }
+.app-head h3 { margin: 0; }
+.app-head img { width: 64px; height: 64px; flex-shrink: 0; border-radius: 15px; object-fit: contain; }
+.tool .app-head { margin: 0 0 12px; }
+.tool .app-head img { width: 48px; height: 48px; border-radius: 12px; }
+.toucharium-card { grid-template-columns: minmax(0,1.15fr) minmax(0,.85fr); padding: 36px; gap: 44px; }
+.feature-list { list-style: none; padding: 0; margin: 24px 0 28px; }
+.feature-list li { padding: 14px 0; border-top: 1px solid var(--line); }
+.feature-list strong { display: block; font-size: 15px; }
+.feature-list span { display: block; margin-top: 4px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.product-preview { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 28px 16px; border-radius: 12px; background: #e1e8dc; min-width: 0; }
+.preview-label { font: 11px/1.6 ui-monospace,monospace; letter-spacing: 1.5px; color: #52624b; text-align: center; }
+.toucharium-preview img { width: min(100%,220px); height: auto; border-radius: 24px; box-shadow: 0 16px 35px #20282220; }
+.product-preview .note { text-align: center; }
+.app-benefits { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
+.app-benefits span { padding: 4px 10px; font-size: 12px; color: #52624b; background: #edf1e9; border-radius: 6px; }
+.app-screenshot { height: 280px; overflow: hidden; background: #e9eff4; border-radius: 10px; margin-bottom: 22px; padding-top: 24px; text-align: center; }
+.app-screenshot.wellness { background: #e7efe2; }
+.app-screenshot img { width: 200px; max-width: 86%; height: auto; border-radius: 20px 20px 0 0; box-shadow: 0 8px 28px #20282218; }
+@media(max-width:760px) {
+ .toucharium-card { grid-template-columns: minmax(0,1fr); padding: 22px; gap: 24px; }
+ .app-head img { width: 56px; height: 56px; border-radius: 13px; }
+ .toucharium-preview img { width: 200px; }
+ .app-screenshot { height: 260px; }
+}
