@@ -32,3 +32,5 @@ python3 scripts/check_site.py
 掘金与 Bilibili 标志来自 [Simple Icons](https://github.com/simple-icons/simple-icons)（CC0）；简书使用平台公开 favicon；长截图助手图标来自作者提供的应用站点；公众号二维码由作者提供。相关品牌标志归各权利人所有。
 
 作品图标与截图：Toucharium、长截图助手、抗炎记录使用各自产品站的公开资源；预览截图已缩小并压缩。Frame Lab、BinderABC、RPC、dumpsys 未提供独立图标，本站为其制作简洁 SVG 项目标识。
+
+当前视觉主题：纸白 `#FAF9F6`、炭黑 `#272522`、赭红 `#994A32`，使用细边框与暖灰截图底，保留作品原有品牌色。
